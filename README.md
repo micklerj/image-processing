@@ -2,8 +2,8 @@ Image processor built in c++ that is used through the command line. The processo
 outputs image.tga files. Some example input and output .tga files have been provided in the folders input and output.
 
 The following methods can be called on the input images:
+
 method name   |   needed variable(s)   |    purpose
-________________________________________________________
 - combine     |         2 images       |   combines input image's pixels' red values with 2nd image's green values and 3rd image's blue values
 - screen      |          image         |   combines input image's color with 2nd image's color
 - multiply    |          image         |   multiplies input image's color with 2nd image's color
