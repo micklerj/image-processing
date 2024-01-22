@@ -27,9 +27,11 @@ Instructions:
 2.) navigate to repository in the command line
 
 3.) Compile the program into an executable with GNU Compiler Collection with the following command:
+
     g++ --std=c++11 -o executablename.exe src/main.cpp
     
 4.) run program with:
+
     ./executablename.exe output/result.tga input/firstimage.tga [method] [variable(s)] [method] [variable(s)] etc...
     
     -  result.tga     is the name of the resulting image.tga 
